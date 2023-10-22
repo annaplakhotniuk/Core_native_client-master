@@ -1,0 +1,19 @@
+# Ignore virtual environment directories
+venv/
+venv/*
+
+# Ignore IDE-specific files/directories
+.idea/
+
+# Ignore Git-related files
+.git
+
+# Ignore Python bytecode files
+__pycache__
+test/__pycache__/*
+test/modules_for_test/__pycache__/*.pyc
+screenshot/*.png
+
+# Ignore log files in the root logs/ and logs_test/ directories
+logs/*.log
+logs_test/*.log

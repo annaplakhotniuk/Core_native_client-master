@@ -1,0 +1,124 @@
+Start logging to the /home/user/.local/share/Boosteroid Games S.R.L./bstr_client.log
+[2023-06-15 17:34:03.124] [linux_dbg] [debug] [             default]: Downloading of Updates.xml: QUrl("https://boosteroid.com/linux/client/Updates.xml")
+[2023-06-15 17:34:03.326] [linux_dbg] [debug] [             default]: Our version: 1.5.8 remote version: "1.5.8"
+[2023-06-15 17:34:03.326] [linux_dbg] [info] [             default]: Starting  "Boosteroid" "1.5.8 (Beta)" a02a9e5 (c) "Boosteroid Games S.R.L."
+[RTPLIB][[31mERROR[0m][::get_username] No such device or address
+[RTPLIB][[31mERROR[0m][::get_username] No such device or address
+[2023-06-15 17:34:03.326] [linux_dbg] [info] [             default]: Using UA: BoosteroidLinuxClient v.1.5.8 (Beta);Ubuntu 22.04.2 LTS x86_64 5.19.0-42-generic
+[2023-06-15 17:34:03.328] [linux_dbg] [debug] [             default]: Added sequence: "Alt+Enter" "Alt+Return, \u0001"
+[2023-06-15 17:34:03.328] [linux_dbg] [debug] [             default]: Added sequence: "Ctrl+F2" "Ctrl+F2, \u0001"
+[2023-06-15 17:34:03.345] [linux_dbg] [info] [             default]: Starting sentry: DB path "/home/user/.local/share/Boosteroid Games S.R.L./Boosteroid/db"
+[2023-06-15 17:34:03.345] [linux_dbg] [debug] [             default]:   Started successfuly.
+[2023-06-15 17:34:03.345] [linux_dbg] [info] [             default]: Net monitor started
+[2023-06-15 17:34:03.345] [linux_dbg] [info] [             default]: Sound monitor started
+[2023-06-15 17:34:03.345] [linux_dbg] [info] [             default]: Bluetooth monitor started
+[2023-06-15 17:34:03.489] [linux_dbg] [info] [         AudioRender]: Init with: alsa
+[2023-06-15 17:34:03.503] [linux_dbg] [info] [         AudioRender]:   0 default 48000 32 32 32
+[2023-06-15 17:34:03.700] [linux_dbg] [info] [         AudioRender]:   1 hw:HDA Intel PCH,0 48000 2 4 2
+[2023-06-15 17:34:03.702] [linux_dbg] [info] [         AudioRender]:   2 hw:HDA Intel PCH,2 48000 2 0 0
+[2023-06-15 17:34:03.710] [linux_dbg] [info] [         AudioRender]:   3 hw:HDA Intel PCH,3 48000 0 8 0
+[2023-06-15 17:34:03.711] [linux_dbg] [info] [         AudioRender]:   4 hw:HDA Intel PCH,7 48000 0 8 0
+[2023-06-15 17:34:03.713] [linux_dbg] [info] [         AudioRender]:   5 hw:HDA Intel PCH,8 48000 0 8 0
+[2023-06-15 17:34:03.714] [linux_dbg] [info] [         AudioRender]:   6 hw:HDA Intel PCH,9 48000 0 8 0
+[2023-06-15 17:34:03.715] [linux_dbg] [info] [         AudioRender]:   7 hw:HDA Intel PCH,10 48000 0 8 0
+[2023-06-15 17:34:03.715] [linux_dbg] [info] [         AudioRender]: Audio Devices, default( 0 0 )
+[2023-06-15 17:34:03.726] [linux_dbg] [info] [         AudioTester]: Init with: alsa
+[2023-06-15 17:34:03.731] [linux_dbg] [debug] [             default]: XI2 supported. Server provides version   2 , 2
+[2023-06-15 17:34:03.731] [linux_dbg] [info] [         Controllers]: Starting SDL Events...
+[2023-06-15 17:34:03.731] [linux_dbg] [debug] [          NetManager]: Starting network I/O context...
+[2023-06-15 17:34:03.731] [linux_dbg] [debug] [          NetManager]: Starting asio context...
+[2023-06-15 17:34:03.733] [linux_dbg] [debug] [      AudioRender IN]: Found in device: 0 default 32
+[2023-06-15 17:34:03.734] [linux_dbg] [info] [         Controllers]:   Added 558 controller mappings
+[2023-06-15 17:34:03.734] [linux_dbg] [info] [         Controllers]: Init SDL Controllers...
+[2023-06-15 17:34:03.734] [linux_dbg] [debug] [      AudioRender IN]: Found in device: 1 hw:HDA Intel PCH,0 2
+[2023-06-15 17:34:03.735] [linux_dbg] [debug] [      AudioRender IN]: Found in device: 2 hw:HDA Intel PCH,2 2
+[2023-06-15 17:34:03.743] [linux_dbg] [debug] [     AudioRender OUT]: Found out device: 0 default 32
+[2023-06-15 17:34:03.744] [linux_dbg] [debug] [     AudioRender OUT]: Found out device: 1 hw:HDA Intel PCH,0 4
+[2023-06-15 17:34:03.746] [linux_dbg] [debug] [     AudioRender OUT]: Found out device: 3 hw:HDA Intel PCH,3 8
+[2023-06-15 17:34:03.747] [linux_dbg] [debug] [     AudioRender OUT]: Found out device: 4 hw:HDA Intel PCH,7 8
+[2023-06-15 17:34:03.748] [linux_dbg] [debug] [     AudioRender OUT]: Found out device: 5 hw:HDA Intel PCH,8 8
+[2023-06-15 17:34:03.750] [linux_dbg] [debug] [     AudioRender OUT]: Found out device: 6 hw:HDA Intel PCH,9 8
+[2023-06-15 17:34:03.751] [linux_dbg] [debug] [     AudioRender OUT]: Found out device: 7 hw:HDA Intel PCH,10 8
+[2023-06-15 17:34:03.751] [linux_dbg] [debug] [          Controller]: result: 0 0
+[2023-06-15 17:34:03.751] [linux_dbg] [debug] [          Controller]: Set active audio devices 0 0
+[2023-06-15 17:34:03.751] [linux_dbg] [debug] [             default]: Screen geometry: QRect(1920,0 1920x1080) , size: QSize(1920, 1080) 
+	phys size (mm): QSizeF(598, 336) human resolution: QSize(1920, 1080) 
+	avil geom: QRect(1920,0 1920x1080) avail size: QSize(1920, 1080) 
+	pixel ratio: 1 eff pixel ratio: 1 depth: 24 
+	DPI: 96 phys DPI: 81.5973 
+	 "HDMI-1" "BenQ GL2760-" "BNQ"
+[2023-06-15 17:34:03.752] [linux_dbg] [debug] [         Controllers]: SDL: 1 1
+[2023-06-15 17:34:03.916] [linux_dbg] [info] [          Controller]: Starting events...
+[2023-06-15 17:34:04.149] [linux_dbg] [debug] [             default]: Loading system translation...
+[2023-06-15 17:34:04.149] [linux_dbg] [debug] [             default]: Success. Loaded: "en_US"
+[2023-06-15 17:34:04.149] [linux_dbg] [debug] [             default]: Translator was NOT installed
+[2023-06-15 17:34:13.285] [linux_dbg] [debug] [   Controllers::User]: Login action:  i.zayats@boosteroid.com ...
+[2023-06-15 17:34:14.281] [linux_dbg] [debug] [   Controllers::User]: Result:  200
+[2023-06-15 17:34:14.284] [linux_dbg] [debug] [Controllers::Payments]: Updating subscriptions...
+[2023-06-15 17:34:14.547] [linux_dbg] [debug] [   Controllers::User]: Update user info action...
+[2023-06-15 17:34:14.793] [linux_dbg] [info] [   Controllers::User]: Time left: "887:15:44" notified: false
+[2023-06-15 17:34:14.793] [linux_dbg] [debug] [             default]: Loading translation: "en"
+[2023-06-15 17:34:14.793] [linux_dbg] [debug] [             default]: Success. Loaded: "en_US"
+[2023-06-15 17:34:14.808] [linux_dbg] [debug] [             default]: Using network cache location: "/home/user/.cache/Boosteroid Games S.R.L./Boosteroid"
+[2023-06-15 17:34:14.809] [linux_dbg] [debug] [            UserView]: Page spinner: 1
+[2023-06-15 17:34:14.809] [linux_dbg] [debug] [   Controllers::User]: Update language: en
+[2023-06-15 17:34:14.810] [linux_dbg] [debug] [ Boostore Controller]: Updating carousel items...
+[2023-06-15 17:34:14.953] [linux_dbg] [debug] [ Boostore Controller]: Fetching platforms...
+[2023-06-15 17:34:14.984] [linux_dbg] [debug] [ Boostore Controller]: Collections: {"data":[{"description":"","footerHint":"","headerHint":"","id":1,"name":"Library"},{"description":"Catalog of games compatible with Remote Gaming Desktop. To start playing, install any game from the catalog on a virtual machine.","footerHint":"All rights to games and their content belong to publishers & other respective owners. You can run a game using remote gaming desktop only if you buy the game from official distributor.","headerHint":"","id":5,"name":"Install"}]}
+[2023-06-15 17:34:15.079] [linux_dbg] [debug] [          Controller]: Fetching changelog: https://boosteroid.com/linux/client/changelog.md
+[2023-06-15 17:34:15.082] [linux_dbg] [debug] [            UserView]: Page spinner: 2
+[2023-06-15 17:34:15.082] [linux_dbg] [info] [ Boostore Controller]: Fetching installed, page 1
+[2023-06-15 17:34:15.084] [linux_dbg] [debug] [ Boostore Controller]: Fetching genres...
+[2023-06-15 17:34:15.085] [linux_dbg] [info] [      ffmpeg decoder]: Resolution:  2073600 , test path:  ":decoderSamples/24mb/"
+[2023-06-15 17:34:15.087] [linux_dbg] [debug] [ Boostore Controller]: Collections: {"data":[{"description":"","footerHint":"","headerHint":"","id":1,"name":"Library"},{"description":"Catalog of games compatible with Remote Gaming Desktop. To start playing, install any game from the catalog on a virtual machine.","footerHint":"All rights to games and their content belong to publishers & other respective owners. You can run a game using remote gaming desktop only if you buy the game from official distributor.","headerHint":"","id":5,"name":"Install"}]}
+[2023-06-15 17:34:15.087] [linux_dbg] [debug] [            UserView]: Page spinner: 1
+[2023-06-15 17:34:15.250] [linux_dbg] [debug] [             default]: Cannot load libcuda.so.1
+
+[2023-06-15 17:34:15.250] [linux_dbg] [debug] [             default]: Could not dynamically load CUDA
+
+[2023-06-15 17:34:15.250] [linux_dbg] [debug] [      ffmpeg decoder]: Failed to create specified HW device. Unknown error occurred -1313558101
+[2023-06-15 17:34:15.250] [linux_dbg] [warning] [      ffmpeg decoder]: Failed to initialize HW decoder: 2
+[2023-06-15 17:34:15.250] [linux_dbg] [warning] [      ffmpeg decoder]: Error while init H264 with  cuda
+Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+[2023-06-15 17:34:15.251] [linux_dbg] [debug] [             default]: VDPAU device creation on X11 display :0 failed.
+
+[2023-06-15 17:34:15.251] [linux_dbg] [debug] [      ffmpeg decoder]: Failed to create specified HW device. Unknown error occurred -1313558101
+[2023-06-15 17:34:15.251] [linux_dbg] [warning] [      ffmpeg decoder]: Failed to initialize HW decoder: 1
+[2023-06-15 17:34:15.251] [linux_dbg] [warning] [      ffmpeg decoder]: Error while init H264 with  vdpau
+[2023-06-15 17:34:15.253] [linux_dbg] [info] [      ffmpeg decoder]: HW Decoder ctx received
+[2023-06-15 17:34:15.365] [linux_dbg] [debug] [             default]: Set games, page 1 from to 1 32 fetched: 32 total 32 items: 32
+[2023-06-15 17:34:15.365] [linux_dbg] [debug] [            UserView]: Page spinner: 0
+[2023-06-15 17:34:15.831] [linux_dbg] [debug] [      ffmpeg decoder]: 			Name:  vaapi , Vector:  QVector(19, 19, 20, 14, 21, 18, 17, 17, 17, 17, 17, 17, 17, 17, 18, 17, 21, 18, 17, 17)
+[2023-06-15 17:34:15.831] [linux_dbg] [debug] [      ffmpeg decoder]: 				pos:  10 , value:  17
+[2023-06-15 17:34:16.063] [linux_dbg] [debug] [      ffmpeg decoder]: 			Name:   , Vector:  QVector(8, 7, 7, 5, 9, 5, 7, 7, 8, 8, 8, 7, 7, 5, 8, 5, 7, 7, 8, 8)
+[2023-06-15 17:34:16.063] [linux_dbg] [debug] [      ffmpeg decoder]: 				pos:  10 , value:  7
+[2023-06-15 17:34:16.063] [linux_dbg] [info] [      ffmpeg decoder]: Decoder results: 
+[2023-06-15 17:34:16.063] [linux_dbg] [info] [      ffmpeg decoder]: 	Name:  vaapi , fps: 58
+[2023-06-15 17:34:16.063] [linux_dbg] [info] [      ffmpeg decoder]: 	Name:   SW , fps: 142
+[2023-06-15 17:34:16.063] [linux_dbg] [info] [      ffmpeg decoder]: 	Best result is SW, but we use HW:  58
+[2023-06-15 17:34:16.063] [linux_dbg] [info] [      ffmpeg decoder]: Initializing ffmpeg with HW acceleration
+[2023-06-15 17:34:16.063] [linux_dbg] [debug] [      ffmpeg decoder]: Selected HW format: 3 vaapi
+[2023-06-15 17:34:16.063] [linux_dbg] [info] [      ffmpeg decoder]: Found decoder config format: 44 vaapi
+[2023-06-15 17:34:16.064] [linux_dbg] [info] [      ffmpeg decoder]: HW Decoder ctx received
+[2023-06-15 17:34:16.064] [linux_dbg] [info] [      ffmpeg decoder]: H264 codec/parser opened and initialized
+[2023-06-15 17:34:16.064] [linux_dbg] [debug] [      ffmpeg decoder]: Codec has been opened:  27 , threads: 1
+[2023-06-15 17:34:33.954] [linux_dbg] [debug] [            UserView]: Page spinner: 1
+[2023-06-15 17:34:33.954] [linux_dbg] [debug] [   Controllers::User]: Update user info action...
+[2023-06-15 17:34:34.193] [linux_dbg] [info] [   Controllers::User]: Time left: "887:15:44" notified: true
+[2023-06-15 17:34:34.193] [linux_dbg] [debug] [   Controllers::User]: Updating user cloud sessions...
+[2023-06-15 17:34:34.348] [linux_dbg] [debug] [Controllers::Payments]: Updating subscriptions...
+[2023-06-15 17:34:34.520] [linux_dbg] [debug] [            UserView]: Page spinner: 0
+[2023-06-15 17:34:37.486] [linux_dbg] [debug] [   Controllers::User]: Logout action
+[2023-06-15 17:34:37.738] [linux_dbg] [info] [   Controllers::User]: Logout result code: 204 Result:  true
+[2023-06-15 17:34:37.746] [linux_dbg] [debug] [         AudioTester]: Stop(): reset indicators.
+[2023-06-15 17:34:39.305] [linux_dbg] [info] [             default]: Close app catched
+[2023-06-15 17:34:39.420] [linux_dbg] [info] [         AudioRender]: Stop all
+[2023-06-15 17:34:39.420] [linux_dbg] [debug] [          NetManager]: Stopping asio context...
+[2023-06-15 17:34:39.420] [linux_dbg] [debug] [          NetManager]: 	stopped
+[2023-06-15 17:34:39.420] [linux_dbg] [debug] [          NetManager]: asio thread finished.
+[2023-06-15 17:34:39.420] [linux_dbg] [debug] [          NetManager]: 	finished
+[2023-06-15 17:34:39.420] [linux_dbg] [debug] [            Streamer]: Stopping: false false false false
+[2023-06-15 17:34:39.420] [linux_dbg] [info] [         Controllers]: Stopping SDL Events...
+[2023-06-15 17:34:39.422] [linux_dbg] [debug] [         AudioTester]: Stop(): reset indicators.
+[2023-06-15 17:34:39.428] [linux_dbg] [debug] [            Streamer]: Stopping: false false false false
+[2023-06-15 17:34:39.428] [linux_dbg] [debug] [            Streamer]: Stopping: false false false false

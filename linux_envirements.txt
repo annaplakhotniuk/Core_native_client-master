@@ -1,0 +1,19 @@
+sudo apt-get install python3-tk python3-dev
+sudo apt-get install scrot
+sudo apt-get install python3-opencv
+dpkg -S libxcb-xinerama.so.0
+sudo apt-get install libxcb-xinerama0
+dpkg -S libxcb-xinput.so.0
+sudo apt-get install libxcb-xinput0
+dpkg -S libpcre2-16.so.0
+sudo apt-get install libpcre2-16-0
+sudo pip install pytest
+
+#running ssh
+sudo apt-get install sshfs
+sudo apt install openssh-server
+sudo service ssh start
+
+#mount directory 
+sshfs user@192.168.0.106:/home/user/PycharmProjects/Test_Native_Client/ /home/user/PycharmProjects/Test_Native_Client/
+sudo nano /etc/fstab 

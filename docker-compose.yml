@@ -1,0 +1,15 @@
+version: '3'
+services:
+  my_ui_tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5900:5900"
+      - "6000:6000"
+    environment:
+      - DISPLAY=:0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority:ro
+    #command: pytest test/test_update_app.py

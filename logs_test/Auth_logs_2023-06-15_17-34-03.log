@@ -1,0 +1,63 @@
+2023-06-15 17:34:03,102  [modules_for_test.Base]  INFO - Running Test1 - 'test_startProcess': run application
+2023-06-15 17:34:03,104  [modules_for_test.Base]  INFO - Method 'start_video_recording' - Recording started for file: TestAuth_2023-06-15_17-34-03.avi
+2023-06-15 17:34:03,105  [modules_for_test.Base]  DEBUG - Start 'checks_if_app_running': checking if the app 'Boosteroid' is running
+2023-06-15 17:34:03,115  [modules_for_test.Base]  DEBUG - Method 'checks_if_app_running': pids: [''], result: 
+2023-06-15 17:34:03,115  [modules_for_test.Base]  DEBUG - Start 'applicationLaunching': no running application 'Boosteroid' detected in the system
+2023-06-15 17:34:03,115  [modules_for_test.Base]  INFO - Method 'remove_conf_file': file '/home/user/.config/Boosteroid Games S.R.L./Boosteroid.conf' exists, proceed with removal-True
+2023-06-15 17:34:03,115  [modules_for_test.Base]  DEBUG - Create new log file: '/home/user/.config/Boosteroid Games S.R.L./Boosteroid.conf'
+2023-06-15 17:34:03,116  [modules_for_test.Base]  DEBUG - Start application: 'Boosteroid'
+2023-06-15 17:34:08,118  [modules_for_test.Base]  DEBUG - Method 'applicationLaunching': check if the program 'Boosteroid' is running
+2023-06-15 17:34:08,118  [modules_for_test.Base]  DEBUG - Method 'applicationLaunching': before starting the application 'Boosteroid', no running
+2023-06-15 17:34:08,118  [modules_for_test.Base]  DEBUG - Method 'applicationLaunching': created directory: '/home/user/Test_Native_Client/screenshot'
+2023-06-15 17:34:08,118  [modules_for_test.Base]  DEBUG - Method 'applicationLaunching': change current directory to: '/home/user/Test_Native_Client/screenshot'
+2023-06-15 17:34:08,118  [modules_for_test.Base]  DEBUG - Start 'startProcess': checking the presence of an element 'auth.png' on the screen
+2023-06-15 17:34:08,157  [modules_for_test.Base]  ERROR - Error occurred during method 'record_video': [Errno 2] No such file or directory: '.screenshot2023-0615_17-34-07-997981.png'
+2023-06-15 17:34:08,567  [modules_for_test.Base]  INFO - Found element 'auth.png', location is 'Point(x=466, y=286)'-True
+2023-06-15 17:34:08,567  [modules_for_test.Base]  INFO - [32mStart application successful[0m
+2023-06-15 17:34:08,923  [modules_for_test.Base]  INFO - Click 'email.png', which is located at 'Point(x=357, y=357)'-True
+2023-06-15 17:34:10,363  [modules_for_test.Base]  INFO - Click 'password.png', which is located at 'Point(x=362, y=419)'-True
+2023-06-15 17:34:11,815  [modules_for_test.Base]  INFO - Click 'remember.png', which is located at 'Point(x=396, y=464)'-True
+2023-06-15 17:34:13,147  [modules_for_test.Base]  INFO - Click 'log_in.png', which is located at 'Point(x=486, y=529)'-True
+2023-06-15 17:34:16,632  [modules_for_test.Base]  INFO - Found element 'change_log.png', location is 'Point(x=820, y=433)'-True
+2023-06-15 17:34:17,017  [modules_for_test.Base]  INFO - Click 'change_log_ok.png', which is located at 'Point(x=1143, y=727)'-True
+2023-06-15 17:34:18,020  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'change_log_ok.png' in: Clickable list
+2023-06-15 17:34:18,601  [modules_for_test.Base]  INFO - Found element 'edu.png', location is 'Point(x=961, y=603)'-True
+2023-06-15 17:34:18,972  [modules_for_test.Base]  INFO - Click 'next.png', which is located at 'Point(x=1053, y=685)'-True
+2023-06-15 17:34:19,976  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'next.png' in: Clickable list
+2023-06-15 17:34:20,532  [modules_for_test.Base]  INFO - Found element 'edu1.png', location is 'Point(x=570, y=445)'-True
+2023-06-15 17:34:20,882  [modules_for_test.Base]  INFO - Click 'next.png', which is located at 'Point(x=662, y=553)'-True
+2023-06-15 17:34:21,886  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'next.png' in: Clickable list
+2023-06-15 17:34:22,375  [modules_for_test.Base]  INFO - Found element 'edu2.png', location is 'Point(x=465, y=461)'-True
+2023-06-15 17:34:22,725  [modules_for_test.Base]  INFO - Click 'next.png', which is located at 'Point(x=558, y=553)'-True
+2023-06-15 17:34:23,728  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'next.png' in: Clickable list
+2023-06-15 17:34:24,239  [modules_for_test.Base]  INFO - Found element 'edu3.png', location is 'Point(x=475, y=539)'-True
+2023-06-15 17:34:24,588  [modules_for_test.Base]  INFO - Click 'next.png', which is located at 'Point(x=568, y=658)'-True
+2023-06-15 17:34:25,591  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'next.png' in: Clickable list
+2023-06-15 17:34:26,071  [modules_for_test.Base]  INFO - Found element 'edu4.png', location is 'Point(x=1483, y=403)'-True
+2023-06-15 17:34:26,416  [modules_for_test.Base]  INFO - Click 'next.png', which is located at 'Point(x=1576, y=506)'-True
+2023-06-15 17:34:27,419  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'next.png' in: Clickable list
+2023-06-15 17:34:27,897  [modules_for_test.Base]  INFO - Found element 'edu5.png', location is 'Point(x=699, y=392)'-True
+2023-06-15 17:34:28,258  [modules_for_test.Base]  INFO - Click 'next.png', which is located at 'Point(x=790, y=482)'-True
+2023-06-15 17:34:29,280  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'next.png' in: Clickable list
+2023-06-15 17:34:29,758  [modules_for_test.Base]  INFO - Found element 'edu6.png', location is 'Point(x=1483, y=689)'-True
+2023-06-15 17:34:30,188  [modules_for_test.Base]  INFO - Click 'finish.png', which is located at 'Point(x=1576, y=778)'-True
+2023-06-15 17:34:31,210  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'finish.png' in: Clickable list
+2023-06-15 17:34:31,670  [modules_for_test.Base]  INFO - Found element 'free_time.png', location is 'Point(x=947, y=462)'-True
+2023-06-15 17:34:32,026  [modules_for_test.Base]  INFO - Click 'alright.png', which is located at 'Point(x=955, y=734)'-True
+2023-06-15 17:34:33,030  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'alright.png' in: Clickable list
+2023-06-15 17:34:33,479  [modules_for_test.Base]  INFO - Found element 'main_menu.png', location is 'Point(x=847, y=222)'-True
+2023-06-15 17:34:33,842  [modules_for_test.Base]  INFO - Click 'user_sett_PROD.png', which is located at 'Point(x=1605, y=226)'-True
+2023-06-15 17:34:34,849  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'user_sett_PROD.png' in: Clickable list
+2023-06-15 17:34:35,261  [modules_for_test.Base]  INFO - Found element 'menu_user.png', location is 'Point(x=454, y=223)'-True
+2023-06-15 17:34:35,622  [modules_for_test.Base]  INFO - Click 'log_out.png', which is located at 'Point(x=1575, y=226)'-True
+2023-06-15 17:34:36,629  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'log_out.png' in: Clickable list
+2023-06-15 17:34:37,056  [modules_for_test.Base]  INFO - Found element 'logout_confirm.png', location is 'Point(x=967, y=529)'-True
+2023-06-15 17:34:37,380  [modules_for_test.Base]  INFO - Click 'out_confirm_ok.png', which is located at 'Point(x=1031, y=598)'-True
+2023-06-15 17:34:38,385  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'out_confirm_ok.png' in: Clickable list
+2023-06-15 17:34:38,849  [modules_for_test.Base]  INFO - Found element 'boost_start.png', location is 'Point(x=1167, y=561)'-True
+2023-06-15 17:34:39,202  [modules_for_test.Base]  INFO - Click 'close_prog.png', which is located at 'Point(x=1621, y=184)'-True
+2023-06-15 17:34:40,205  [modules_for_test.Base]  DEBUG - Method 'test_auth': object 'close_prog.png' in: Clickable list
+2023-06-15 17:34:40,206  [modules_for_test.Base]  INFO - [32mMethod 'test_auth': Test auth successful[0m
+2023-06-15 17:34:40,443  [modules_for_test.Base]  INFO - Screenshot saved to: '/home/user/Test_Native_Client/screenshot/test_startProcess_2023-06-15_17-34-40.png'
+2023-06-15 17:34:40,466  [modules_for_test.Base]  DEBUG - Method 'stop_threads': threads -'[]'
+2023-06-15 17:34:40,467  [modules_for_test.Base]  INFO - Method 'stop_video_recording' - Recording stopped 'TestAuth_2023-06-15_17-34-03.avi'
